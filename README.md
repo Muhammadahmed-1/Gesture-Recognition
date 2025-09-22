@@ -4,6 +4,7 @@
 
 This project explores **deep learning approaches for hand gesture recognition**, focusing on the comparison between training a **baseline CNN from scratch** and applying **transfer learning** with a pretrained AlexNet model.  
 The system classifies hand images into multiple gesture categories and demonstrates the advantage of using pretrained feature extractors in computer vision tasks.  
+<img width="500" height="500" alt="gesture" src="https://github.com/user-attachments/assets/2c379b12-47de-4d8d-982c-0877da41c239" />
 
 ## Approach
 - Built a **baseline CNN** for multi-class hand gesture classification.  
