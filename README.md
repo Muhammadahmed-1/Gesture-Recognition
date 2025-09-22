@@ -1,20 +1,21 @@
 # Gesture Recognition with CNNs and Transfer Learning
 
 ## Overview
+
 This project explores **deep learning approaches for hand gesture recognition**, focusing on the comparison between training a **baseline CNN from scratch** and applying **transfer learning** with a pretrained AlexNet model.  
 The system classifies hand images into multiple gesture categories and demonstrates the advantage of using pretrained feature extractors in computer vision tasks.  
----
+
 ## Approach
 - Built a **baseline CNN** for multi-class hand gesture classification.  
 - Implemented **transfer learning** using **AlexNet** as a frozen feature extractor.  
 - Designed and trained a **custom classification head** on top of extracted features.  
 - Compared model performance on training, validation, and test sets.  
----
+
 ## Results
 - **Baseline CNN**: 85.4% test accuracy  
 - **AlexNet + custom head**: 93.9% test accuracy  
 - Transfer learning improved performance by **+8.5%**, with better generalization and reduced training time.  
----
+
 ## Tools & Frameworks
 - **PyTorch**  
 - **CNN architectures**  
